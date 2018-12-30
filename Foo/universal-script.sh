@@ -27,8 +27,8 @@ UNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal
 mkdir -p "${UNIVERSAL_OUTPUTFOLDER}/iOS"
 
 # build both device and simulator versions for iOS
-xcodebuild -project "${PROJECT_NAME}.xcodeproj" -scheme "${PROJECT_NAME}"  -sdk iphonesimulator -destination 'platform=iOS Simulator' clean build
-xcodebuild -project "${PROJECT_NAME}.xcodeproj" -scheme "${PROJECT_NAME}" -sdk iphoneos clean build
+xcodebuild -project "${PROJECT_NAME}.xcodeproj" -scheme "${PROJECT_NAME}"  -sdk iphonesimulator -destination 'platform=iOS Simulator' clean build -UseModernBuildSystem=NO
+xcodebuild -project "${PROJECT_NAME}.xcodeproj" -scheme "${PROJECT_NAME}" -sdk iphoneos clean build -UseModernBuildSystem=NO
 
 # copy the framework structure from iphoneos build to the universal folder
 cp -R "${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework" "${UNIVERSAL_OUTPUTFOLDER}/iOS"
