@@ -1,0 +1,6 @@
+framework module MixedFW {
+  umbrella header "MixedFW-umbrella.h"
+
+  export *
+  module * { export * }
+}

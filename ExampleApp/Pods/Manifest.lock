@@ -1,0 +1,16 @@
+PODS:
+  - MixedFW (1.0.1)
+
+DEPENDENCIES:
+  - MixedFW (from `../Foo/`)
+
+EXTERNAL SOURCES:
+  MixedFW:
+    :path: "../Foo/"
+
+SPEC CHECKSUMS:
+  MixedFW: 7aee0b41b3cadf708ebf12b34fdb019d389be49a
+
+PODFILE CHECKSUM: 53b3c6c8093d8cf0320b0281c68462481a1e5d8b
+
+COCOAPODS: 1.5.3
