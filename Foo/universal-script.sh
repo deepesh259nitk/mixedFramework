@@ -49,8 +49,8 @@ cp -R "${UNIVERSAL_OUTPUTFOLDER}/iOS/${PROJECT_NAME}.framework" "${TMPDIR}/${PRO
 # create a zip file and move it to the project's directory
 cd "${TMPDIR}/${PROJECT_NAME}/Frameworks/iOS"
 #zip -r "${PROJECT_NAME}.framework.zip" "${PROJECT_NAME}.framework"
-mkdir -p "${PROJECT_DIR}/universal-framework"
-mv "${PROJECT_NAME}.framework" "${PROJECT_DIR}/universal-framework"
+mkdir -p "${PROJECT_DIR}/UniversalFramework"
+mv "${PROJECT_NAME}.framework" "${PROJECT_DIR}/UniversalFramework"
 
 # optional: show the project's directory in Finder
 #open "${PROJECT_DIR}/universal-framework"
