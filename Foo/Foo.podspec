@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "Foo"
-  s.version      = "1.0.5"
+  s.version      = "1.0.6"
   s.summary      = "This is a iOS framework containing both objective c and swift code"
   s.description  = "This is a iOS framework containing both objective c and swift code and shows how modules with with POD"
   s.homepage     = "https://github.com/deepesh259nitk/mixedFramework"
