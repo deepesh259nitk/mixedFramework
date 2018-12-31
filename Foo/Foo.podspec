@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author             = { "Deepesh" => "deepesh259nitk@gmail.com" }
   s.platform     = :ios, "11.0"
-  s.source       = { :git => '.', :tag => s.version}
+  s.source       = { :git => "https://github.com/deepesh259nitk/Foo-iOS-Framework.git", :tag => "1.0.0" }
   #s.source_files  = "Foo/**/*.{h,m,swift}"
   #s.source_files  = "Foo/**/*.{modulemap}"
   #s.source_files  = "Foo/**/*.private.modulemap"
