@@ -1,22 +1,22 @@
 PODS:
-  - Foo (1.0.9)
+  - Foo (1.1.1)
 
 DEPENDENCIES:
-  - Foo (from `https://github.com/deepesh259nitk/mixedFramework.git`, tag `1.0.9`)
+  - Foo (from `https://github.com/deepesh259nitk/mixedFramework.git`, tag `1.1.1`)
 
 EXTERNAL SOURCES:
   Foo:
     :git: https://github.com/deepesh259nitk/mixedFramework.git
-    :tag: 1.0.9
+    :tag: 1.1.1
 
 CHECKOUT OPTIONS:
   Foo:
     :git: https://github.com/deepesh259nitk/mixedFramework.git
-    :tag: 1.0.9
+    :tag: 1.1.1
 
 SPEC CHECKSUMS:
-  Foo: 7193ba9e09f2b5bcbdfbc8160819b6150221d562
+  Foo: a19439cccd60e830307c70e3e6a0f70325d39ebb
 
-PODFILE CHECKSUM: 3f6d14f690cecba47a6031542eb0b98c4896a1fe
+PODFILE CHECKSUM: 5c475102e990d7ccf30f50eeb9878c5ff334d12e
 
 COCOAPODS: 1.6.0.beta.2
