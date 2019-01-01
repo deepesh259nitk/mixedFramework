@@ -19,10 +19,10 @@
 
 - (void)doSomething;
 {
-    NSLog(@"Baz ---- test ");
-    [[[Bar alloc] init] doSomething];
+    NSLog(@"Baz Objc method called ------ Starting -------");
     NSLog(@"%@", [[Norf alloc] init]);
-    NSLog(@"Baz ---- objc end ");
+    NSLog(@"Baz Objc method called ------ Ending -------");
+    
 }
 
 @end
