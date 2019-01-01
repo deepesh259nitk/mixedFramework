@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "86E5C3125806BF0DD25A6608BFA46122"
-               BlueprintName = "MixedFW"
+               BlueprintIdentifier = "D107CCB6BEE45EA8F6497BF95DC915AA"
+               BlueprintName = "Foo"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "MixedFW.framework">
+               BuildableName = "Foo">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

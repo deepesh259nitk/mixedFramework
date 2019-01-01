@@ -1,6 +1,6 @@
 {
-  "name": "MixedFW",
-  "version": "1.0.1",
+  "name": "Foo",
+  "version": "1.0.8",
   "summary": "This is a iOS framework containing both objective c and swift code",
   "description": "This is a iOS framework containing both objective c and swift code and shows how modules with with POD",
   "homepage": "https://github.com/deepesh259nitk/mixedFramework",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/deepesh259nitk/mixedFramework.git",
-    "tag": "1.0.1"
+    "tag": "1.0.8"
   },
-  "source_files": "Foo/**/*.private.modulemap"
+  "vendored_frameworks": "Foo/Foo.framework"
 }

@@ -1,10 +1,14 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '11.0'
 
 target 'ExampleApp' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
   # Pods for ExampleApp
-  pod 'MixedFW', :path => "../Foo/"
+  pod 'Foo', :git => 'https://github.com/deepesh259nitk/mixedFramework.git', :tag => '1.0.8'
+
 end

@@ -11,7 +11,7 @@ import Foo_Private
 
 @objc open class Bar: NSObject {
    
-    @objc open func doSomething() {
+    @objc open func doSomething() -> String {
         // We can access Baz, which is public:
         let b = Baz()
         print("test B")
@@ -23,5 +23,7 @@ import Foo_Private
         
         let q = Qux()
         print("test Q")
+        
+        return "Test String"
     }
 }
