@@ -16,13 +16,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         let testBaz = Baz()
-        testBaz.doSomething()
+        print(testBaz.doSomething())
         
         let testBar = Bar()
-        testBar.doSomething()
+        print(testBar.doSomething())
         
     }
-
 
 }
 

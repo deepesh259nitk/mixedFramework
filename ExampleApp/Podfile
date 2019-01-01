@@ -9,6 +9,6 @@ target 'ExampleApp' do
   use_frameworks!
 
   # Pods for ExampleApp
-  pod 'Foo', :git => 'https://github.com/deepesh259nitk/mixedFramework.git', :tag => '1.0.8'
+  pod 'Foo', :git => 'https://github.com/deepesh259nitk/mixedFramework.git', :tag => '1.0.9'
 
 end
