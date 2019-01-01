@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "Foo"
-  s.version      = "1.1.2"
+  s.version      = "1.1.3"
   s.summary      = "This is a iOS framework containing both objective c and swift code"
   s.description  = "This is an example cocoa pod for iOS framework work containing both Objective c and Swift code. The framework uses Modules to address the issues of accessing private objective C files within the swift ecosystem and still keeping those objective c Files private within the framework and not exposed to the end user.
 
@@ -22,7 +22,7 @@ NOTE : EXAMPLE APP SHOULD ALWAYS USE THE LEGACY BUILD SYSTEM TO BUILD APPS USING
   s.license      = "MIT"
   s.author             = { "Deepesh" => "deepesh259nitk@gmail.com" }
   s.platform     = :ios, "11.0"
-  s.source       = { :git => "https://github.com/deepesh259nitk/mixedFramework.git", :tag => "1.1.2" }
+  s.source       = { :git => "https://github.com/deepesh259nitk/mixedFramework.git", :tag => "1.1.3" }
   #s.source_files  = "Foo/**/*.{h,m,swift}"
   #s.source_files  = "Foo/**/*.{modulemap}"
   #s.source_files  = "Foo/**/*.private.modulemap"
