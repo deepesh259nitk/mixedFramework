@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "Foo"
-  s.version      = "1.1.0"
+  s.version      = "1.1.1"
   s.summary      = "This is a iOS framework containing both objective c and swift code"
   s.description  = "This is example cocoa pods of how iOS frameworks work in reality containing both Objective c and Swift code. The framework uses Modules to address the issues of accessing private objective C files within the swift ecosystem and still keeping those objective c Files private within the framework and not exposed to the end user. 
 
@@ -20,7 +20,7 @@ Note : Generally the above mentioned issues should be working be default within 
   s.license      = "MIT"
   s.author             = { "Deepesh" => "deepesh259nitk@gmail.com" }
   s.platform     = :ios, "11.0"
-  s.source       = { :git => "https://github.com/deepesh259nitk/mixedFramework.git", :tag => "1.1.0" }
+  s.source       = { :git => "https://github.com/deepesh259nitk/mixedFramework.git", :tag => "1.1.1" }
   #s.source_files  = "Foo/**/*.{h,m,swift}"
   #s.source_files  = "Foo/**/*.{modulemap}"
   #s.source_files  = "Foo/**/*.private.modulemap"
