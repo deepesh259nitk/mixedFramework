@@ -12,3 +12,5 @@ Some Known Issue’s which are fixed in iOS mixed frameworks
 4. the mixed iOS framework now has a test target written in swift, Which means you can now write your test cases in swift within a mixed framework environment. 
 
 Note : Generally the above mentioned issues should be working be default within the apple ecosystem but unfortunately within a iOS framework things gets a bit complex than expected and using modules and following some right naming convention all of the above can successfully work.
+
+NOTE : EXAMPLE APP SHOULD ALWAYS USE THE LEGACY BUILD SYSTEM TO BUILD APPS USING THIS POD. 
